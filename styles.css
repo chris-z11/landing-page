@@ -1,0 +1,269 @@
+.design {
+    background-color: #010313;
+    color: whitesmoke;
+    font-family: 'Inter';
+    text-align: justify;
+}
+
+.logo {
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.only {
+    font-size: 50px;
+}
+
+.text {
+    line-height: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 2px 4px;
+    transition: transform .2s;
+    word-spacing: 15px;
+    color: whitesmoke;
+}
+
+.log {
+    background-color: #010313;
+    padding: 5px;
+    border: 1px solid purple;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: transform .2s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 45px 8px 10px; */
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+ #form11 {
+    display: flex;
+    justify-content: center;
+} 
+
+.input1 {
+    border: 1px solid blue;
+    height: 30px;
+    width: 250px;
+    padding: left;
+}
+
+.input2 {
+    background-color: blue;
+    border: 1px solid blue;
+    color: whitesmoke;
+    height: 30px;
+}
+
+.learn {
+    text-align: center;
+    line-height: 10px;
+}
+
+.father {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    border: 1px solid;
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.father2 {
+    background-color: rgba(90, 63, 196, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.how {
+     background-color: rgba(90, 63, 196, 0.1);
+     display: flex;
+     justify-content: center;
+     padding: 35px;
+     margin-right: auto;
+}
+
+#work {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+.box2 {
+    margin: 40px;
+    text-align: center;
+    line-height: 10px;
+}
+
+#work2 {
+   background: rgba(90, 63, 196, 0.1);
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 30px;
+   height: 60px;
+}
+.how2 {
+    background-color: blue;
+    color: whitesmoke;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.father3 {
+    text-align: center;
+}
+
+.img1 {
+    float: left;
+    padding: 30px 30px;
+}
+.father4 {
+    display: flex;
+    justify-content: center;
+} 
+.father5 {
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#form12 {
+    display: flex;
+    justify-content: center;
+}
+.input3 {
+    border: 1px solid blue;
+    height: 25px;
+    width: 300px;
+    padding: left;
+}
+.input4 {
+    background-color: blue;
+    border: 1px solid blue;
+    /* position: absolute; */
+    color: whitesmoke;
+    height: 28px;
+}
+
+#am {
+    margin-top: 50px;
+}
+@media screen and (max-width: 450px) {
+    .only {
+        font-size: 30px;
+    }
+    p {
+        font-size: 25px;
+    }
+    #form11 {
+        font-size: 20px;
+    }
+    #form12 {
+        font-size: 30px;
+    }
+    #am {
+        margin-top: 25px;
+    }
+    .father {
+        flex-direction: column;
+    }
+    .father2 {
+        flex-direction: column;
+    }
+    .father4 {
+        flex-direction: column;
+    }
+
+    .father5 {
+        flex-direction: column;
+    }
+
+    .img1 {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    #text {
+        margin-left: 50px;
+    }
+    #acc {
+        font-size: 25px;
+    }
+    #acc1 {
+        font-size: 15.8px;
+    }
+}
+@media screen  and (max-width: 1200px) {
+.father4 {
+        flex-direction: column;
+    }
+    .only {
+        font-size: 45px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .father2 {
+        flex-direction: column;
+    }
+    .father4 {
+        margin-left: 100px;
+    }
+    .img1 {
+       margin-left: 250px;
+    }
+    #text {
+        margin-left: 30px;
+    }
+    #est {
+        text-align: center;
+        margin-right: 150px;
+        font-size: 25px;
+    }
+    #est1 {
+        margin-left: 190px;
+    }
+    .father5 {
+        flex-direction: column;
+    }
+    .est2 {
+        text-align: center;
+    }
+    .input1 {
+        width: 250px;
+        font-size: 20px;
+    }
+    .input2 {
+        width: 100px;
+        font-size: 15px;
+    }
+    .input3 {
+        width: 250px;
+        font-size: 20px;
+    }
+    .input4 {
+        width: 90px;
+        font-size: 15px;
+    }
+    .father {
+        flex-direction: column;
+    }
+}
